@@ -1,0 +1,32 @@
+{
+  "name": "tp-lv1-server",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://eyepax_KavinduS@bitbucket.org/kavindu_eyepax/tp-lv1-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/kavindu_eyepax/tp-lv1-server/issues"
+  },
+  "homepage": "https://bitbucket.org/kavindu_eyepax/tp-lv1-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.6.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.6.5",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "stripe": "^10.14.0"
+  }
+}
